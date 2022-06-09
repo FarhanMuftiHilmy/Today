@@ -2,30 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
+}
+
+.home h1{
+  text-align: center;
+  font-weight: normal;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +19,98 @@
     transform: rotate(360deg);
   }
 }
+
+/* NAVBAR */
+
+.navbar header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 50px;
+  box-shadow: 0 1px 8px #ddd;
+}
+
+.navbar #nav-title {
+  margin-right: auto;
+  font-size: 1.5em;
+}
+
+.navbar header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navbar header a {
+  text-decoration: none;
+  color: #555;
+  transition: all 0.3s ease 0s;
+}
+
+.navbar header a:hover {
+  color: #b2dfdb;
+}
+
+.card {
+  height: 100%;
+  display: grid;
+}
+
+.card.content {
+  margin: auto;
+}
+
+.btn-cancel {
+  align-items: center;
+}
+
+
+/* rituals page */
+
+.todo-wrapper{
+  border-bottom: 1px solid lightgray;
+  text-align: left;
+  padding: 10px;
+  line-height: 17px;
+}
+
+.todo-wrapper span.data{
+  margin-left: 10px;
+}
+
+.todo-wrapper span.data-aktivitas{
+  background-color: white;
+  width: 140px; 
+  word-break: break-all;
+}
+
+custom-btn{
+  border-radius: 10px;
+}
+
+select.dropdown{
+  margin-right: 10px;
+}
+
+
+input.form-control{
+  margin-right: 10px;
+  padding: 5px;
+  line-height: 17px;
+  font-size: 15px;
+}
+
+.rituals-page{
+  font-family: "Segoe UI";
+  text-align: center;
+  margin: 20px auto 20px auto;
+  width: 900px;
+  min-height: 600px;  
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
